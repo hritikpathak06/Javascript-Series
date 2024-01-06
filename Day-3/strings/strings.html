@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>ABout Strings</h1>
+  </body>
+  <script>
+    console.log("About Strings");
+    let str = "Apna College";
+    let str2 = "Apna College";
+    console.log(str.length);
+    console.log(str2.length);
+    console.log(str[11]);
+
+    <!-- Templetae Literals -->
+    let obj = {
+      item: "pen",
+      price: 20,
+    };
+
+    console.log(`price of pen: ${obj.price} && item name is : ${obj.item}`);
+
+    //string methods
+    let name = "AbCdEfhjs";
+    console.log("Uppercase: ", name.toUpperCase());
+    console.log("Lowerrcase: ", name.toLowerCase());
+    console.log("Trim :", name.trim()); //Remove white space
+    str = "01234567";
+    str2 = "90123456";
+    console.log("size:", str.length);
+    console.log("Slice: ", str.slice(1, 5));
+    console.log("Concatination:", str.concat(str2));
+    console.log("Replace", str.replace("0", "10"));
+    console.log("Char At: ", str.charAt("4"));
+  </script>
+</html>
